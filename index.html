@@ -26,7 +26,7 @@ text-decoration: none;
 
 <div class="w3-row-padding w3-margin-top" style="background: orange;height: 100%;">
 
-<div class="w3-third" onclick="swal('사용자에게 관리자 권한 없음', '지워, 밴 등과 같은 명령어는 사용자에게 관리자 권한이 필요한 명령어입니다.서버 관리자에게 관리자 권한을 요구하세요!(?)', 'https://github.com/OHvrything/thingEbotWebsite/blob/main/error1.png?raw=true')">
+<div class="w3-third" onclick="swal('사용자에게 관리자 권한 없음', '지워, 밴 등과 같은 명령어는 사용자에게 관리자 권한이 필요한 명령어입니다.서버 관리자에게 관리자 권한을 요구하세요!(?)', 'https://github.com/OHvrything/thingEbotWebsite/blob/main/error1.png?raw=true');document.getElementById('banner').style.display='block'">
 <div class="w3-card">
 <img src="https://github.com/OHvrything/thingEbotWebsite/blob/main/error1.png?raw=true" style="width:100%">
 <div class="w3-container">
@@ -35,7 +35,7 @@ text-decoration: none;
 </div>
 </div>
 
-<div class="w3-third" onclick="swal('띵이봇에게 권한 없음', '지워, 밴 등과 같은 명령어는 띵이봇에게 사용자 차단, 메시지 관리 등의 권한이 있어야 하는 명령어입니다! 서버 관리자시라면 띵이봇에게 권한을 주세요!', 'https://github.com/OHvrything/thingEbotWebsite/blob/main/error2.PNG?raw=true')">
+<div class="w3-third" onclick="swal('띵이봇에게 권한 없음', '지워, 밴 등과 같은 명령어는 띵이봇에게 사용자 차단, 메시지 관리 등의 권한이 있어야 하는 명령어입니다! 서버 관리자시라면 띵이봇에게 권한을 주세요!', 'https://github.com/OHvrything/thingEbotWebsite/blob/main/error2.PNG?raw=true');document.getElementById('banner').style.display='block'">
 <div class="w3-card">
 <img src="https://github.com/OHvrything/thingEbotWebsite/blob/main/error2.PNG?raw=true" style="width:100%">
 <div class="w3-container">
@@ -44,7 +44,7 @@ text-decoration: none;
 </div>
 </div>
   
-<div class="w3-third" onclick="swal('필요한 값이 없음', '밴에 있는 유저 멘션 등과 같은 필요한 값이 없는 경우입니다.', 'https://github.com/TEAMTEB/tebserver/blob/main/error4.PNG?raw=true')">
+<div class="w3-third" onclick="swal('필요한 값이 없음', '밴에 있는 유저 멘션 등과 같은 필요한 값이 없는 경우입니다.', 'https://github.com/TEAMTEB/tebserver/blob/main/error4.PNG?raw=true');document.getElementById('banner').style.display='block'">
 <div class="w3-card">
 <img src="https://github.com/TEAMTEB/tebserver/blob/main/error4.PNG?raw=true" style="width:100%">
 <div class="w3-container">
@@ -53,7 +53,7 @@ text-decoration: none;
 </div>
 </div>
   
-<div class="w3-third" onclick="swal('값이 이상함', '지워 명령어를 사용할때 값을 수가 아닌 글자로 했을때 얼마나 지울지 알 수 없어 생기는 오류입니다.', 'https://github.com/TEAMTEB/tebserver/blob/main/error5.PNG?raw=true')">
+<div class="w3-third" onclick="swal('값이 이상함', '지워 명령어를 사용할때 값을 수가 아닌 글자로 했을때 얼마나 지울지 알 수 없어 생기는 오류입니다.', 'https://github.com/TEAMTEB/tebserver/blob/main/error5.PNG?raw=true');document.getElementById('banner').style.display='block'">
 <div class="w3-card">
 <img src="https://github.com/TEAMTEB/tebserver/blob/main/error5.PNG?raw=true" style="width:100%">
 <div class="w3-container">
@@ -62,7 +62,7 @@ text-decoration: none;
 </div>
 </div>
 
-<div class="w3-third" onclick="swal('기타 등등...', '구글 번역기 쓰면 대부분 다 나옵니다! 한번 써보세요!', 'https://github.com/TEAMTEB/tebserver/blob/main/error3.PNG?raw=true')">
+<div class="w3-third" onclick="swal('기타 등등...', '구글 번역기 쓰면 대부분 다 나옵니다! 한번 써보세요!', 'https://github.com/TEAMTEB/tebserver/blob/main/error3.PNG?raw=true');document.getElementById('banner').style.display='block'">
 <div class="w3-card">
 <img src="https://github.com/TEAMTEB/tebserver/blob/main/error3.PNG?raw=true" style="width:100%">
 <div class="w3-container">
@@ -73,6 +73,11 @@ text-decoration: none;
 
 </div>
 <footer style="color: white;background: gray;">
+<div id="banner" style="background: lightblue;display: none;color: black;">
+<center>
+    <h1 style="font-size:40px">도움이 되셨나요?</h1>
+    <p>이 웹사이트를 평가해주세요!</p>
+    <button onclick="swal('감사합니다!', '도움이 되었다니... 다행이네요!', 'success');document.getElementById('banner').style.display='none'">👍</button><button onclick="swal('도움이 안되셨다고요...?', '죄송합니다 ㅜㅜ 공식 포럼으로 오시면 도와 드릴게요! https://discord.gg/nrsVh8EUHE', 'error');document.getElementById('banner').style.display='none'">👎</button></center></div>
 <h2>이미지를 클릭하면 더 자세히 볼 수 있습니다!</h2>
 </footer>
 </body>
